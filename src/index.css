@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Dubai Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Regular"),
+    url("./assets/font/Dubai-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dubai Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Light"),
+    url("./assets/font/Dubai-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dubai Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Medium"),
+    url("./assets/font/Dubai-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dubai Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Bold"), url("./assets/font/Dubai-Bold.woff") format("woff");
+}
+
+/* overall scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
